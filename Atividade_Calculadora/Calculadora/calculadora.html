@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="calculadora.js"></script>
+    <title>Aula 01/02</title>
+
+</head>
+
+<body>
+
+    <h1>Calculadora</h1>
+
+    <br>
+    <br>
+
+    <p>Nesta pagina é possível fazer operações matemáticas básicas!!!</p>
+
+    <div id="entradavalores">
+        <label id="LValor1">Insira o Valor 1: </label>
+        <input type="text" id="ivalor1">
+
+        <br>
+        <br>
+
+        <label id="LValor2">Insira o Valor 2: </label>
+        <input type="text" id="ivalor2">
+    </div>
+
+    <br>
+    <br>
+
+    <div id="alternativa">
+
+        <label id="soma">Soma</label>
+        <input type="radio" name="calc" id="soma" value="soma">
+        <label id="subtracao">Subtração</label>
+        <input type="radio" name="calc" id="subtração" value="subtracao">
+        <label id="multiplicacao">Multiplicação</label>
+        <input type="radio" name="calc" id="multiplicacao" value="multiplicacao">
+        <label id="divisao">Divisão</label>
+        <input type="radio" name="calc" id="divisao" value="divisao">
+
+    </div>
+
+    <br>
+
+    <div id="botao">
+        <button onclick="calculadora()">CALCULAR</button>
+    </div>
+    <p id="ed">Volte sempre!</p>
+
+</body>
+
+</html>
